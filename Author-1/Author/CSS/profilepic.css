@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* This CSS for Navbar */
+
+header {
+    text-align: left;
+}
+
+header>nav {
+    background-color: rgb(171, 255, 227);
+}
+
+header>nav>ul {
+    padding: 20px;
+}
+
+header>nav>ul>li {
+    list-style: none;
+    padding: 30px;
+    display: inline;
+}
+
+header>nav>ul>li>a {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+header>nav>ul>li>a:hover {
+    color: rgb(10, 146, 236);
+}
+
+/* This CSS for Profile */
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.change {
+    margin-bottom: 20px;
+}
+
+.change input[type="file"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 250px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(171, 255, 227);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    color: rgb(10, 146, 236);
+}

@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+/* This CSS for Navbar */
+
+nav {
+    background-color: rgb(171, 255, 227);
+    padding: 20px;
+    width: 100%;
+}
+
+nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav>ul>li>a:hover {
+    color: rgb(10, 146, 236);
+    border-radius: 5px;
+}
+
+/* This CSS for Login Page */
+
+.container {
+    background-color: white;
+    padding: 30px 40px;
+    border: 2px solid #ccc;
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.container>h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+.container>.p{
+    width: 150px;
+    align-items: center;
+    border-radius: 5px;
+    margin: 2px auto 20px;
+    background-color: rgb(171, 255, 227);
+    height: 5px;
+}
+
+.container>form>label {
+    font-size: larger;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.container>form>input {
+    width: 100%;
+    padding: 10px;
+}
+
+
+.container>form>.button>button {
+    display: block;
+    margin: 30px auto 0;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(171, 255, 227);
+    border-radius: 8px;
+}
+
+.container>form>.button>button:hover {
+    background-color: aqua;
+}

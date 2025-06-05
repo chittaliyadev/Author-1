@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* This CSS for Navbar */
+
+header{
+    text-align: left;
+}
+
+header > nav{
+    background-color: rgb(171, 255, 227);
+}
+
+header > nav > ul{
+    padding: 20px;
+}
+
+header > nav > ul > li{
+    list-style: none;
+    padding: 30px;
+    display: inline;
+}
+
+header > nav > ul > li > a{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+header > nav > ul > li > a:hover{
+    color: rgb(10, 146, 236);
+}
+
+/* This CSS for Profile */
+
+.container{
+    text-align: center;
+    padding: 30px;
+}
+
+.container > .images{
+    padding: 10px;
+}
+
+.container > .images > img{
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.container > .change > button{
+    border: none;
+}
+
+.container > .change > button > a{
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.container > .change > button > a:hover{
+    background-color: aqua;
+    color: rgb(0, 79, 250);
+}
+
+
+/* This CSS for Profile Data */
+
+.data{
+    width: 80vw;
+    justify-content: center;
+    margin: 0 0 0 10%;
+    display: flex;
+    height: auto;
+}
+
+.data > form > table{
+    height: 39vh;
+    text-align: left;
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 5px 20px;
+    border-radius: 20px;
+    width: 40vw;
+}
+
+label{
+    font-size: larger;
+    font-weight: 600;
+}
+
+input{
+    padding: 8px;
+    text-align: center;
+    width: 18vw;
+}
+
+.update > button{
+    margin-top: 20px;
+    border: none;
+}
+
+.update > button > a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.update > button > a:hover{
+    color: rgb(10, 146, 236);
+    background-color: aqua;
+}
+
+
+
+
+/* This CSS for Change Password */
+
+.change1 > p{
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.change1 > p > a{
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.change1 > p > a:hover{
+    color: rgb(0, 79, 250);
+}
+
+/* This CSS for Footer */
+
+footer{
+    text-align: center;
+}
+
+footer > p{
+    padding: 25px;
+    font-weight: 400;
+    font-size: larger;
+    color: black;
+    background-color: rgb(171, 255, 227);
+}

@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This CSS for Navbar */
+
+header{
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+header > nav{
+    background-color: rgb(171, 255, 227);
+    padding: 20px;
+    width: 100%;
+}
+
+header > nav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+header > nav > ul > li > a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(10, 146, 236);
+    border-radius: 5px;
+}
+
+
+/* This CSS for Forget */
+
+.container{
+    background-color: white;
+    padding: 30px 40px;
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.container > h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.container > .p{
+    height: 5px;
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+    margin: 2px auto 25px;
+    border-radius: 10px;
+}
+
+.container > form > .group{
+    margin-bottom: 5px;
+}
+
+.container > form > .group > label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.container > form > .group > input{
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container > form > .button{
+    margin-bottom: 20px;
+}
+
+.container > form > .button > button{
+    margin: 20px auto 0;
+    display: block;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(171, 255, 227);
+    border: none;
+    border-radius: 8px;
+}
+
+.container > form > .button > button:hover{
+    background-color: aqua;
+}

@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* This CSS for Navbar */
+
+header{
+    text-align: left;
+}
+
+header > nav{
+    background-color: rgb(171, 255, 227);
+}
+
+header > nav > ul{
+    padding: 20px;
+}
+
+header > nav > ul > li{
+    list-style: none;
+    padding: 30px;
+    display: inline;
+}
+
+header > nav > ul > li > a{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+header > nav > ul > li > a:hover{
+    color: rgb(10, 146, 236);
+}
+
+/* This CSS for main */
+
+.container{
+    height: 100vh;
+    text-align: center;
+    padding: 50px;
+}
+
+.container > h2{
+    padding: 25px;
+    font-size: 2em;
+}
+
+/* This CSS for Footer */
+
+footer{
+    text-align: center;
+}
+
+footer > p{
+    padding: 25px;
+    font-weight: 400;
+    font-size: larger;
+    color: black;
+    background-color: rgb(171, 255, 227);
+}
+
+/* Start CSS Of Admin-page */
+
+.main{
+    text-align: center;
+    padding: 30px;
+}
+
+/* End CSS Of Admin-Page */

@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* This CSS for Navbar */
+
+nav {
+    background-color: rgb(171, 255, 227);
+}
+
+nav>ul {
+    padding: 20px;
+}
+
+nav>ul>li {
+    list-style: none;
+    padding: 30px;
+    display: inline;
+}
+
+nav>ul>li>a {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+nav>ul>li>a:hover {
+    color: rgb(10, 146, 236);
+}
+
+/* table css */
+
+.button>a {
+    right: 20px;
+    position: absolute;
+    margin: 25px 75px 0 0;
+    font-weight: 400;
+    font-size: larger;
+    background-color: rgb(171, 255, 227);
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+table {
+    width: 90vw;
+    border: 2px solid rgb(171, 255, 227);
+    border-collapse: collapse;
+    text-align: center;
+    margin: 120px 0 50px 60px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid rgb(171, 255, 227);
+}
+
+th {
+    text-align: center;
+    background: rgb(171, 255, 227);
+}
+
+.update{
+    margin: 5px;
+    padding: 8px;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    border: none;
+}
+
+.update:hover{
+    color: white;
+    background-color: brown;
+}
+
+.delete{
+    margin: 5px;
+    padding: 8px;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+}
+
+.delete:hover{
+    color: white;
+    background-color: brown;
+}
